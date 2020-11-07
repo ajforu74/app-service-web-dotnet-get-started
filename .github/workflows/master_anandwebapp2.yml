@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'anandwebapp2'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4029cc54ba4c4cd884ec9aaaa6ad4ee3 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9ea97602a45f4e0787fe87f1c7e4d34f }}
         package: ${{env.DOTNET_ROOT}}/myapp 
